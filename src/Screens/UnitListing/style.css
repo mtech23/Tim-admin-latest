@@ -1,0 +1,44 @@
+.stats {
+    margin-bottom: 1rem;
+    border-right: 2px solid #fff0;
+}
+
+.css-13cymwt-control, .css-t3ipsp-control {
+    background: #fff;
+    border: none;
+    font-weight: 400;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 20%) !important;
+    padding: 4px 0px;
+    font-size: 15px;
+    color: #141414;
+    width: 100%;
+    resize: none;
+    border-radius: 10px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-color: #fff !important;
+    outline: none !important;
+    margin-bottom: 25px;
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+    .stats, .stats:not(:last-child) {
+        border-color: #fff0;
+    }
+
+    .stats:nth-child(odd) {
+        border-color: #000;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .stats, .stats:not(:last-child), .stats:nth-child(odd) {
+        border-color: #fff0;
+    }
+}
+
+
+
+
